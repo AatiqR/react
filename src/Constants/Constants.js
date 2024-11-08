@@ -1,4 +1,4 @@
-import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaJava, FaLinkedinIn, FaNodeJs, FaPython } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaJava, FaLinkedinIn, FaNodeJs,  } from "react-icons/fa";
 import { IoLogoFirebase, IoLogoJavascript } from "react-icons/io5";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
@@ -77,8 +77,10 @@ import schoolLogo from '../assets/schoolLogo.png'
 import collegeLogo from '../assets/collegeLogo.png'
 import universityLogo from '../assets/universityLogo.png'
 import smitLogo from '../assets/smitLogo.png'
-import digiskillsLogo from '../assets/digiskillsLogo.png'
-
+import Aptech from '../assets/ApTech.png'
+import Experitizo from '../assets/Expertizo.png'
+import Bahria from '../assets/Bahria.png'
+import alMustafa from '../assets/almustafa.png'
 // navbarLogo
 import navbarImg from '../assets/navbarLogo.png'
 import { SiAntdesign, SiDjango, SiExpress, SiMongodb, SiPostman, SiTypescript } from "react-icons/si";
@@ -143,24 +145,8 @@ const skillsIcons = [
         title: "Ant Design"
     },
     {
-        icon: <SiPostman />,
-        title: "Postman"
-    },
-    {
-        icon: <FaPython />,
-        title: "Python"
-    },
-    {
-        icon: <SiDjango />,
-        title: "Django"
-    },
-    {
-        icon: <FaJava />,
-        title: "Java"
-    },
-    {
-        icon: <TbBrandCpp />,
-        title: "C++"
+        icon: <RiReactjsLine />,
+        title: "React Native"
     },
 ];
 
@@ -182,10 +168,13 @@ const education = [
     
     {
         img: schoolLogo,
-        instituteName: "Mumtaz Vision Academy",
-        degreeName: "Matriculation in Science Group",
-        duration: "March 2019 - October 2021"
+        instituteName: "Mama Baby Care School",
+        degreeName: "Matriculation",
+        duration: "2013- 2015"
     }
+
+
+
 ]
 
 // resumeLink
@@ -204,22 +193,38 @@ const professionalExperience = [
         img: smitLogo,
         name: "Saylani Mass IT Training Program",
         role: "Web & Mobile App Development Course",
-        duration: "June 2023 -  June 2024 (1 Year)",
+        duration: "2019 (1 Year)",
         certified: true
     },
     {
-        img: smitLogo,
-        name: "Saylani Mass IT Training Program",
-        role: "Programming Essentials in Python",
-        duration: "December 2021 - March 2022 (3 Months)",
+        img: Aptech,
+        name: "Aptech",
+        role: "DIPLOMA IN SOFTWARE ENGINEERING",
+        duration: "2019 - 2022",
         certified: true
+        
+
     },
     {
-        img: digiskillsLogo,
-        name: "DigiSkills",
-        role: "COMMUNICATION AND SOFT SKILLS",
-        duration: "July 2022 - October 2022 (3 Months)",
-        certified: true
+        img: Experitizo,
+        name: "Experitizo University",
+        role: " Lead Instructor",
+        duration: "2 Year",
+        certified: false
+    },
+    {
+        img: Bahria,
+        name: "Bahria University",
+        role: " Lead Instructor",
+        duration: "Currenly working",
+        certified: false
+    },
+    
+    {
+        img: alMustafa,
+        name: "Al Mustafa ",
+        role: " Founder",
+        certified: false
     },
 ]
 
@@ -366,17 +371,14 @@ const contact = {
 
 // socialLinks
 const socialLinks = [
-    {
-        icon: <FaFacebookF />,
-        link: "https://www.facebook.com/profile.php?id=100090157283290"
-    },
+ 
     {
         icon: <FaGithub />,
-        link: "https://github.com/Huzaifa-Khan-Official"
+        link: "https://github.com/Mohammad-Saad-Aly"
     },
     {
         icon: <FaLinkedinIn />,
-        link: "https://www.linkedin.com/in/huzaifa-khan-officia/"
+        link: "https://www.linkedin.com/in/mohammad-saad-ali-33074123a/"
     }
 ]
 
